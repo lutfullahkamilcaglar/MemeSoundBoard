@@ -14,6 +14,19 @@
 		F506C7F22904348C008931BA /* MemeSoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F506C7F02904348C008931BA /* MemeSoundBoard.xcdatamodeld */; };
 		F506C7F42904348D008931BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F506C7F32904348D008931BA /* Assets.xcassets */; };
 		F506C7F72904348D008931BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F506C7F52904348D008931BA /* LaunchScreen.storyboard */; };
+		F506C8012905732F008931BA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F506C8002905732F008931BA /* CollectionViewController.swift */; };
+		F506C80329057549008931BA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F506C80229057549008931BA /* CollectionViewCell.swift */; };
+		F5F2BF342907071800D702F3 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2BF332907071800D702F3 /* Sound.swift */; };
+		F5F2BF362907089800D702F3 /* SoundsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2BF352907089800D702F3 /* SoundsModel.swift */; };
+		F5F2BF38290708FA00D702F3 /* SoundsBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2BF37290708FA00D702F3 /* SoundsBase.swift */; };
+		F5F2BF44290716F700D702F3 /* OMG It_'s Albert Einstein Sound Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5F2BF3C290716F700D702F3 /* OMG It_'s Albert Einstein Sound Effect.mp3 */; };
+		F5F2BF45290716F700D702F3 /* AAUUUGGHHHHH Sound Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5F2BF3D290716F700D702F3 /* AAUUUGGHHHHH Sound Effect.mp3 */; };
+		F5F2BF46290716F700D702F3 /* Oh N-Word You Gay Sound Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5F2BF3E290716F700D702F3 /* Oh N-Word You Gay Sound Effect.mp3 */; };
+		F5F2BF47290716F700D702F3 /* Get Over Here Sound Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5F2BF3F290716F700D702F3 /* Get Over Here Sound Effect.mp3 */; };
+		F5F2BF48290716F700D702F3 /* WTF Sound Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5F2BF40290716F700D702F3 /* WTF Sound Effect.mp3 */; };
+		F5F2BF49290716F700D702F3 /* Laughing meme sound effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5F2BF41290716F700D702F3 /* Laughing meme sound effect.mp3 */; };
+		F5F2BF4A290716F700D702F3 /* Sad violin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5F2BF42290716F700D702F3 /* Sad violin.mp3 */; };
+		F5F2BF4B290716F700D702F3 /* Do You Honestly Think You're Fuking Funny Sound Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5F2BF43290716F700D702F3 /* Do You Honestly Think You're Fuking Funny Sound Effect.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,19 @@
 		F506C7F32904348D008931BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F506C7F62904348D008931BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F506C7F82904348D008931BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F506C8002905732F008931BA /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		F506C80229057549008931BA /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F5F2BF332907071800D702F3 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		F5F2BF352907089800D702F3 /* SoundsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsModel.swift; sourceTree = "<group>"; };
+		F5F2BF37290708FA00D702F3 /* SoundsBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBase.swift; sourceTree = "<group>"; };
+		F5F2BF3C290716F700D702F3 /* OMG It_'s Albert Einstein Sound Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "OMG It_'s Albert Einstein Sound Effect.mp3"; sourceTree = "<group>"; };
+		F5F2BF3D290716F700D702F3 /* AAUUUGGHHHHH Sound Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "AAUUUGGHHHHH Sound Effect.mp3"; sourceTree = "<group>"; };
+		F5F2BF3E290716F700D702F3 /* Oh N-Word You Gay Sound Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Oh N-Word You Gay Sound Effect.mp3"; sourceTree = "<group>"; };
+		F5F2BF3F290716F700D702F3 /* Get Over Here Sound Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Get Over Here Sound Effect.mp3"; sourceTree = "<group>"; };
+		F5F2BF40290716F700D702F3 /* WTF Sound Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "WTF Sound Effect.mp3"; sourceTree = "<group>"; };
+		F5F2BF41290716F700D702F3 /* Laughing meme sound effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Laughing meme sound effect.mp3"; sourceTree = "<group>"; };
+		F5F2BF42290716F700D702F3 /* Sad violin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sad violin.mp3"; sourceTree = "<group>"; };
+		F5F2BF43290716F700D702F3 /* Do You Honestly Think You're Fuking Funny Sound Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Do You Honestly Think You're Fuking Funny Sound Effect.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +88,33 @@
 				F506C7E92904348C008931BA /* SceneDelegate.swift */,
 				F506C7EB2904348C008931BA /* ViewController.swift */,
 				F506C7ED2904348C008931BA /* Main.storyboard */,
+				F5F2BF352907089800D702F3 /* SoundsModel.swift */,
+				F5F2BF37290708FA00D702F3 /* SoundsBase.swift */,
+				F506C8002905732F008931BA /* CollectionViewController.swift */,
+				F5F2BF332907071800D702F3 /* Sound.swift */,
+				F506C80229057549008931BA /* CollectionViewCell.swift */,
+				F5F2BF3B290716C100D702F3 /* Sounds */,
 				F506C7F32904348D008931BA /* Assets.xcassets */,
 				F506C7F52904348D008931BA /* LaunchScreen.storyboard */,
 				F506C7F82904348D008931BA /* Info.plist */,
 				F506C7F02904348C008931BA /* MemeSoundBoard.xcdatamodeld */,
 			);
 			path = MemeSoundBoard;
+			sourceTree = "<group>";
+		};
+		F5F2BF3B290716C100D702F3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2BF3D290716F700D702F3 /* AAUUUGGHHHHH Sound Effect.mp3 */,
+				F5F2BF43290716F700D702F3 /* Do You Honestly Think You're Fuking Funny Sound Effect.mp3 */,
+				F5F2BF3F290716F700D702F3 /* Get Over Here Sound Effect.mp3 */,
+				F5F2BF41290716F700D702F3 /* Laughing meme sound effect.mp3 */,
+				F5F2BF3E290716F700D702F3 /* Oh N-Word You Gay Sound Effect.mp3 */,
+				F5F2BF3C290716F700D702F3 /* OMG It_'s Albert Einstein Sound Effect.mp3 */,
+				F5F2BF42290716F700D702F3 /* Sad violin.mp3 */,
+				F5F2BF40290716F700D702F3 /* WTF Sound Effect.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +175,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F2BF46290716F700D702F3 /* Oh N-Word You Gay Sound Effect.mp3 in Resources */,
+				F5F2BF48290716F700D702F3 /* WTF Sound Effect.mp3 in Resources */,
+				F5F2BF47290716F700D702F3 /* Get Over Here Sound Effect.mp3 in Resources */,
+				F5F2BF49290716F700D702F3 /* Laughing meme sound effect.mp3 in Resources */,
+				F5F2BF44290716F700D702F3 /* OMG It_'s Albert Einstein Sound Effect.mp3 in Resources */,
 				F506C7F72904348D008931BA /* LaunchScreen.storyboard in Resources */,
 				F506C7F42904348D008931BA /* Assets.xcassets in Resources */,
+				F5F2BF45290716F700D702F3 /* AAUUUGGHHHHH Sound Effect.mp3 in Resources */,
+				F5F2BF4B290716F700D702F3 /* Do You Honestly Think You're Fuking Funny Sound Effect.mp3 in Resources */,
 				F506C7EF2904348C008931BA /* Main.storyboard in Resources */,
+				F5F2BF4A290716F700D702F3 /* Sad violin.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F2BF342907071800D702F3 /* Sound.swift in Sources */,
+				F5F2BF362907089800D702F3 /* SoundsModel.swift in Sources */,
 				F506C7F22904348C008931BA /* MemeSoundBoard.xcdatamodeld in Sources */,
 				F506C7EC2904348C008931BA /* ViewController.swift in Sources */,
+				F506C80329057549008931BA /* CollectionViewCell.swift in Sources */,
 				F506C7E82904348C008931BA /* AppDelegate.swift in Sources */,
 				F506C7EA2904348C008931BA /* SceneDelegate.swift in Sources */,
+				F506C8012905732F008931BA /* CollectionViewController.swift in Sources */,
+				F5F2BF38290708FA00D702F3 /* SoundsBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
